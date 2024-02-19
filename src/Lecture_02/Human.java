@@ -21,6 +21,9 @@ public class Human {
     ---> We can access the static members using class name or using "this" keyword. But due to convention we use
     static members with the name of class.
     ----> "We can use "static" declare members without creating an object of that class."
+    ----> We cannot use "this" keyword inside a "static" method because "this" is referencing variable, and it
+    is replaced by object name when in use but static methods are independent of objects so, it will not recognise
+    "this" there.
      */
     static int population;
 
@@ -28,6 +31,14 @@ public class Human {
     public static void printPopulation() {
         System.out.println("The population of humans is: " + population);
     }
+
+    // This method will throw an error because we are using "this" inside "static" method.
+//    public static void printName() {
+//        System.out.println("The name is: " + this.name); // Error, if we try to access instance variable
+//        System.out.println("The name is: " + this.population); // Error, if we try to access static variable
+//    }
+
+
 
 
     public Human(int age, String name, int salary, boolean married) {
@@ -44,3 +55,8 @@ public class Human {
 }
 
 // Here we have created a class "Human" and will use this class in "StaticExample.java" file.
+
+/*
+NOTES ABOUT NON-STATIC methods or members:-
+---> A "STATIC" member cannot access "NON-STATIC" members but vice-versa is possible.
+ */
