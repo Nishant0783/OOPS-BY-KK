@@ -85,7 +85,6 @@ public class InheritanceExample {
         We can prove this by calling super() in constructor of Box class which has not parent class defined explicitly.
         */
         Box b6 = new Box("Nishant Paliwal");
-
     }
 }
 
