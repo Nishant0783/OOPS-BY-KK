@@ -11,6 +11,7 @@ public class Main {
 
         am1.marks = 19; // Here we can access "marks" because we are in same package.
         am1.friends = 2; // Here we can access "friends" because we are in same package.
+        
     }
 }
 
