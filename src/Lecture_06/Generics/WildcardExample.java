@@ -5,7 +5,7 @@ import java.util.*;
 
 public class WildcardExample<T extends Number> {
     private Object[] data;
-    private static int DEFAULT_SIZE = 10;
+    private final static int DEFAULT_SIZE = 10;
     private int size = 0;
 
     public WildcardExample() {
