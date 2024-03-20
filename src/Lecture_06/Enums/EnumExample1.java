@@ -71,7 +71,7 @@ we can make use of JAVA ENUMS where we can add the sizes.
 ---> While working in web dev we come across many status codes such as "RUNNING", "PENDING", "OK". We want that
 response should be from any of these codes only so, we can create enum for the codes.
 
-************IMPORTANT POINTS*****************
+**************IMPORTANT POINTS******************
 POINT 1) An enum can be "public", "protected", "private" or "package-private(default)".
 POINT 2) If enum is outside a class then it cannot be "private" or "protected". By default, it will be "public".
 POINT 3) We cannot declare an "enum" inside a method.

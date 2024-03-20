@@ -20,7 +20,7 @@ to assign an exact value to these sizes.
 
 ---> Let's add size = 1 for "SMALL", size = 2 for "BIG",  size = 3 for "LARGE'.
 
-----------------------INTERNAL CODE START---------------------------
+----------------------INTERNAL CODE START----------------------------
 
 public final class Coffee extends Enum<Coffee> {
         protected static int size;
@@ -33,7 +33,7 @@ public final class Coffee extends Enum<Coffee> {
         };
 }
 
-----------------------INTERNAL CODE END---------------------------
+----------------------INTERNAL CODE END----------------------------
 ----> In above code we can see that we are passing the value of size in constructor of "Coffee" class.
 ----> So, first we need a variable to track size which will be "private" and "final" so, that it could not be
 accessed outside the class and, it's value can't be changed.

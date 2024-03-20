@@ -18,7 +18,7 @@ Let us create a class "Coffee" which extends "Enum<>" generic class.
 ------> NOTE: We cannot directly extend "Enum" class as it is "Final". This is just for demonstration purpose.
         To use "Enums" we use "enum" keyword.
 
--------------------------------------------------CODE STARTS----------------------------------------------------
+-------------------------------------------------CODE STARTS-----------------------------------------------------
 
 public final class Coffee extends Enum<Coffee> {
         public static final Coffee SMALL = new Coffee();

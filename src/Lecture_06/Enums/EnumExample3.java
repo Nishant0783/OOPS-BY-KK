@@ -36,7 +36,7 @@ public class EnumExample3 {
 
 /*
 In this file we will see about if-else and switch statement in enum.
-----> Suppose we have an enum of "MARKS" with three constants "GOOD", "AVERAGE", "FAIL" which have some marks
+-----> Suppose we have an enum of "MARKS" with three constants "GOOD", "AVERAGE", "FAIL" which have some marks
 associated with them.
 */
 
